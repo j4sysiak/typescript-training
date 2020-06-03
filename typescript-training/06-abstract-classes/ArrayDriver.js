@@ -12,6 +12,6 @@ theShapes.push(myRectangle);
 for (var _i = 0, theShapes_1 = theShapes; _i < theShapes_1.length; _i++) {
     var tempShape = theShapes_1[_i];
     console.log(tempShape.getInfo());
-    console.log(tempShape.calculateArea());
+    console.log("calculateArea = " + tempShape.calculateArea());
     console.log();
 }
