@@ -14,4 +14,5 @@ theCoaches.push(myGolfCoach);
 
 for (let tempCoach of theCoaches) {
     console.log(tempCoach.getDailyWorkout());
+    //vv
 }
